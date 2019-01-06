@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title Hello
+
+    link href='/style.css' rel='stylesheet'
+    script src='/script.js' defer=true
+  body
+    == Slim.partial 'header'
+
+    == yield
+
+    == Slim.partial 'footer'
