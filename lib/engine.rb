@@ -10,9 +10,15 @@ def scripts
 end
 
 def style(src)
-  dest = src[0 ... src.index('.')]
+  l = src.rindex('/') || 0
+  dest = src[l ... src.index('.')]
 
   `sass src/styles/#{src} dist/#{dest}.css`
+end
+
+def assets
+  `mkdir -p dist/assets`
+  `cp -r assets/* dist/assets/`
 end
 
 def route(r, opts)

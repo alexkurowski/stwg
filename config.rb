@@ -6,11 +6,16 @@ cleanup
 
 
 print "Converting styles...\n"
-style 'index.sass'
+style 'index/index.sass'
+style 'if/if.sass'
 
 
 print "Compile scripts...\n"
 scripts
+
+
+print "Copying assets...\n"
+assets
 
 
 print "Loading stored data...\n"

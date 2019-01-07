@@ -2,6 +2,7 @@ require 'fileutils'
 require 'slim'
 
 require_relative 'slim'
+require_relative 'assets'
 
 class Template
   def initialize(route, template: 'index', layout: 'default')
