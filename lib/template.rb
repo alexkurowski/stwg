@@ -1,4 +1,7 @@
 require 'fileutils'
+require 'slim'
+
+require_relative 'slim'
 
 class Template
   def initialize(route, template: 'index', layout: 'default')
@@ -36,9 +39,4 @@ class Template
 
     File.write "#{path}/index.html", @content
   end
-end
-
-
-def route(r, opts)
-  Template.new r, opts
 end

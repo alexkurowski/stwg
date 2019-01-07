@@ -1,8 +1,4 @@
-require 'slim'
-
 require_relative 'lib/engine'
-require_relative 'lib/template'
-require_relative 'lib/slim_helper'
 
 
 print "Cleanup previous compilation...\n"
@@ -15,6 +11,10 @@ style 'index.sass'
 
 print "Compile scripts...\n"
 scripts
+
+
+print "Loading stored data...\n"
+data 'data.yml'
 
 
 print "Writing templates...\n"

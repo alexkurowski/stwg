@@ -1,3 +1,6 @@
+require_relative 'template'
+require_relative 'store'
+
 def cleanup
   `rm -rf dist/*`
 end
@@ -12,7 +15,10 @@ def style(src)
   `sass src/styles/#{src} dist/#{dest}.css`
 end
 
-def route(r, opts, &block)
+def route(r, opts)
   Template.new r, opts
 end
 
+def data(src)
+  Store.load_file "src/store/#{src}"
+end
