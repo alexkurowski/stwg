@@ -16,8 +16,8 @@ projects:
     slug: skilsmassaonline
     title: Skilsmässa Online
     short_title: Skilsmässa
-    description: a website for hiring a divorce lawyer in Sweden
-    short_description: Divorce company in Sweden
+    description: is a website for hiring a divorce lawyer in Sweden
+    excerpt: Divorce company in Sweden
     from: Aug 2017
     till:
     work:
@@ -37,8 +37,8 @@ projects:
   -
     title: Bookva
     slug: bookva
-    description: a desktop application for creative writers
-    short_description: Writing application
+    description: is a desktop application for creative writers
+    excerpt: Writing application
     work:
       - Full-stack development
       - Node.js back-end business logic
@@ -55,8 +55,8 @@ projects:
   -
     slug: bluubeam
     title: BluuBeam
-    description: a platform for broadcasting rich messages directly to peoples phones
-    short_description: Rich message broadcasting
+    description: is a platform for broadcasting rich messages directly to peoples phones
+    excerpt: Rich message broadcasting
     from: Jun 2013
     till: May 2017
     work:
@@ -74,8 +74,8 @@ projects:
   -
     slug: yogile
     title: Yogile
-    description: an easy-to-use photo sharing platform
-    short_description: Photo sharing platform
+    description: is an easy-to-use photo sharing platform
+    excerpt: Photo sharing platform
     from: Jan 2015
     till: Mar 2018
     work:
@@ -99,8 +99,8 @@ projects:
   -
     slug: mentspot
     title: Mentspot
-    description: a social platform connecting mentors and mentees
-    short_description: Mentorship platform
+    description: is a social platform connecting mentors and mentees
+    excerpt: Mentorship platform
     from: Jan 2015
     till: Feb 2016
     work:
@@ -118,8 +118,8 @@ projects:
   -
     slug: beachcatcher
     title: Beachcatcher
-    description: an informative beach-related travel website
-    short_description: A travel website
+    description: is an informative beach-related travel website
+    excerpt: A travel website
     from: Jul 2018
     till: Dec 2018
     work:
@@ -138,8 +138,8 @@ projects:
   -
     slug: holaplaya
     title: Holaplaya
-    description: an informative beach-related travel website
-    short_description: A travel website
+    description: is an informative beach-related travel website
+    excerpt: A travel website
     from: Jul 2018
     till: Nov 2018
     work:
@@ -158,8 +158,8 @@ projects:
   -
     slug: luxuryaffairs
     title: Luxury Affairs
-    description: a platform for luxury real estate sale/rent
-    short_description: Blogging and real estate platform
+    description: is a platform for luxury real estate sale/rent
+    excerpt: Blogging and real estate platform
     from: Mar 2018
     till: Nov 2018
     work:
@@ -175,8 +175,8 @@ projects:
   -
     title: Medium Editor
     slug: medium-editor
-    description: a WYSIWYG inline editor
-    short_description: Plugin contributions
+    description: is a WYSIWYG inline editor
+    excerpt: Plugin contributions
     from: Apr 2018
     till: Apr 2018
     work:
@@ -190,8 +190,8 @@ projects:
   -
     slug: doublemetrics
     title: Doublemetrics
-    description: a user analytics library
-    short_description: Analytics library
+    description: is a user analytics library
+    excerpt: Analytics library
     from: Jan 2015
     till: Feb 2015
     work:
@@ -206,8 +206,8 @@ projects:
   -
     title: Viewpoint
     slug: viewpoint
-    description: a client access library for Microsoft Exchange Web Services (EWS)
-    short_description: API contributions
+    description: is a client access library for Microsoft Exchange Web Services (EWS)
+    excerpt: API contributions
     from: Jun 2013
     till: Jun 2013
     work:
@@ -221,8 +221,8 @@ projects:
   -
     title: Nabookov
     slug: nabookov
-    description: a platform for serial writers
-    description: A platform for serial writers
+    description: is a platform for serial writers
+    excerpt: A platform for serial writers
     work:
       - Full-stack development
       - Elixir back-end
@@ -238,8 +238,8 @@ projects:
   -
     slug: swaps
     title: Swaps
-    description: a mobile puzzle game
-    short_description: A mobile puzzle game
+    description: is a mobile puzzle game
+    excerpt: A mobile puzzle game
     work:
       - Game programming
       - Game design
@@ -254,8 +254,8 @@ projects:
   -
     slug: dgup
     title: DGUP
-    description: a mini-tetris clone for mobile
-    shirt_description: A mini tetris mobile game
+    description: is a mini-tetris clone for mobile
+    excerpt: A mini tetris mobile game
     work:
       - Game programming
       - Game design

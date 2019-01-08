@@ -1,16 +1,13 @@
-.row
-  .column-3
-    .project-info
-      span.project-info__big Alex Kurowski
+.container
+  .project.row
+    .project__details.column-small
+      span.heading Alex Kurowski
       span< is a full-stack software engineer
-    p = Store['email']
+      p == 'kurowski.dev<wbr>@gmail.com'
 
-  .column-9
-    h3 Entries
-    p Significant projects I'm involved in:
-
-    ul.projects
-      - Store['projects'].each do |project|
-        li
-          a href="/prj/#{ project['slug'] }" = project['short_title'] || project['title']
-          span = " – #{ project['short_description'] || project['description'] }"
+    .project__info.column-big
+      ul.projects
+        - Store['projects'].each do |project|
+          li
+            a href="/prj/#{ project['slug'] }" = project['short_title'] || project['title']
+            span = " – #{ project['excerpt'] }"

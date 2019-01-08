@@ -1,8 +1,14 @@
 header.header
-  .header__background
-  .header__content
+  .container.header__content
     .left
-    .center
-      a.header__link href='/'
-        img.header__logo src=Assets.image('kuro-b.svg')
+      a.header__logo href='/'
+        .header__logo__line ALEX
+        .header__logo__line KURO
+        .header__logo__line WSKI
+
     .right
+      a.header__link href=Store['github'] target='_blank' title='github'
+        img.header__link__image src=Assets.image('github.svg')
+      a.header__link href=Store['twitter'] target='_blank' title='twitter'
+        img.header__link__image src=Assets.image('twitter.svg')
+

@@ -19,19 +19,19 @@ body
     font-size: 16px
 
 main
-  $header-height: 84px
+  $header-height: 111px
+  $header-pad: 5vh
   background: #f8f8f8
-  min-height: calc(100vh - #{$header-height})
-  padding: 10em 1rem 8em 1rem
+  min-height: calc(100vh - #{ $header-height } - #{ $header-pad })
+  padding: 3em 0 8em
   box-sizing: border-box
 
-.turbolinks-progress-bar
-  height: 2px
-  background: black
-
-h1, h2, h3, h4
+.heading
+  font-family: Lato, sans-serif
+  font-weight: normal
+  text-transform: uppercase
   line-height: initial
-  margin: 1rem 0
+  margin-bottom: 1rem
 
 a
   color: #333
@@ -40,3 +40,7 @@ a
 
   &:hover
     opacity: .8
+
+.turbolinks-progress-bar
+  height: 2px
+  background: black

@@ -1,8 +1,13 @@
 .container
-  // width: 1024px
-  max-width: 100%
+  width: 90%
   margin: 0 auto
   box-sizing: border-box
+
+  @media (min-width: 768px)
+    width: 80%
+
+[class^="column-"], [class*=" column-"]
+  padding: 0 1rem
 
 @media (min-width: 768px)
   .row
@@ -10,19 +15,12 @@
 
   [class^="column-"], [class*=" column-"]
     display: inline-block
-    padding: 0 .5rem
     box-sizing: border-box
     vertical-align: top
     white-space: normal
 
-  .column-3
-    width: 25%
+  .column-small
+    width: 30%
 
-  .column-4
-    width: 33%
-
-  .column-8
-    width: 66%
-
-  .column-9
-    width: 75%
+  .column-big
+    width: 70%
