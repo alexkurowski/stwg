@@ -1,4 +1,4 @@
-task default: ['compile', 'serve']
+task default: ['compile']
 
 task :compile do
   ruby 'config.rb'

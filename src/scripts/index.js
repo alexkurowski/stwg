@@ -1,1 +1,2 @@
-console.log("Hello, World.js");
+import Turbolinks from "turbolinks";
+Turbolinks.start();

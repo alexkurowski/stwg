@@ -1,0 +1,23 @@
+.row
+  .column-3
+    .project-info
+      span.project-info__big = @project['title']
+      span<> is
+      span.project-info__description = @project['description']
+    - if @project['from'] && @project['from'] == @project['till']
+      p = @project['from']
+    - elsif @project['from'] && @project['till']
+      p = "#{ @project['from'] } – #{ @project['till'] }"
+    - elsif @project['from'] && !@project['till']
+      p = "#{ @project['from'] } – Present"
+
+  .column-9
+    h3 Work done
+    ul.work
+      - @project['work'].each do |work|
+        li = "- #{ work }"
+
+    h3 Tech used
+    ul.tech
+      - @project['tech'].each do |tech|
+        li = "- #{ tech }"

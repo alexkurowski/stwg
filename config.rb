@@ -25,3 +25,9 @@ data 'data.yml'
 print "Writing templates...\n"
 route '/', template: 'index'
 route '/if', template: 'if', layout: 'if'
+
+Store['projects'].each do |project|
+  route "/prj/#{ project['slug'] }",
+    template: 'project',
+    locals: { project: project }
+end

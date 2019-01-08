@@ -5,13 +5,19 @@ require_relative 'slim'
 require_relative 'assets'
 
 class Template
-  def initialize(route, template: 'index', layout: 'default')
+  def initialize(route, template: 'index', layout: 'default', locals: nil)
     @route = route
     @template = template
     @layout = layout
 
     @content_template = Slim::Template.new template_path
     @layout_template = Slim::Template.new layout_path
+
+    if locals.is_a? Hash
+      locals.each do |key, value|
+        instance_variable_set "@#{ key }", value
+      end
+    end
 
     @content =
       @layout_template.render do

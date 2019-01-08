@@ -5,11 +5,37 @@
   bottom: 0
   color: black
   background: white
-  padding: 2rem 1rem
+
+  &__content
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 2rem
 
   &__author
+    display: inline-block
     font-family: monospace
+    font-weight: normal
     line-height: 0.9
+    vertical-align: middle
 
     &__line
       text-align: left
+
+  &__copyright
+    display: inline-block
+    font-size: 14px
+    margin-left: 2rem
+
+    &__bold
+      font-weight: bold
+
+  &__link
+    margin-left: .5rem
+
+    &__twitter
+      width: 2rem
+
+    &__github
+      width: 1.5rem
+      padding: .25rem

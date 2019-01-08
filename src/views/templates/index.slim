@@ -1,2 +1,16 @@
-h1 Hello, World!
-p = Store["tools"][0]
+.row
+  .column-3
+    .project-info
+      span.project-info__big Alex Kurowski
+      span< is a full-stack software engineer
+    p = Store['email']
+
+  .column-9
+    h3 Entries
+    p Significant projects I'm involved in:
+
+    ul.projects
+      - Store['projects'].each do |project|
+        li
+          a href="/prj/#{ project['slug'] }" = project['short_title'] || project['title']
+          span = " – #{ project['short_description'] || project['description'] }"

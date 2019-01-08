@@ -1,9 +1,15 @@
 doctype html
 html
   head
-    title Hello
+    meta charset='utf-8'
+    meta http-equiv='X-UA-Compatible' content='IE=edge'
+    meta name='viewport' content='width=device-width, initial-scale=1.0'
+    title IF game
 
-    link href='/style.css' rel='stylesheet'
-    script src='/script.js' defer=true
-  body
+    link rel="icon" href="/assets/favicon.ico"
+
+    link href='/if.css' rel='stylesheet'
+    script src='/if.js' defer=true
+
+  body.style-contrast
     == yield

@@ -1,0 +1,42 @@
+html, body
+  min-height: 100vh
+
+body
+  position: relative
+  background: black
+  font-family: Archivo, sans-serif
+  font-size: 18px
+  line-height: 1.2em
+  $selection-color: #ff55aa
+
+  ::selection
+    background: $selection-color
+
+  ::-moz-selection
+    background: $selection-color
+
+  @media (max-width: 767px)
+    font-size: 16px
+
+main
+  $header-height: 84px
+  background: #f8f8f8
+  min-height: calc(100vh - #{$header-height})
+  padding: 10em 1rem 8em 1rem
+  box-sizing: border-box
+
+.turbolinks-progress-bar
+  height: 2px
+  background: black
+
+h1, h2, h3, h4
+  line-height: initial
+  margin: 1rem 0
+
+a
+  color: #333
+  font-weight: bold
+  text-decoration: none
+
+  &:hover
+    opacity: .8
