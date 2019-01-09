@@ -26,8 +26,10 @@ print "Writing templates...\n"
 route '/', template: 'index'
 route '/if', template: 'if', layout: 'if'
 
+route '/portfolio', template: 'projects', layout: 'portfolio'
 Store['projects'].each do |project|
-  route "/prj/#{ project['slug'] }",
+  route "/portfolio/#{ project['slug'] }",
     template: 'project',
+    layout: 'portfolio',
     locals: { project: project }
 end

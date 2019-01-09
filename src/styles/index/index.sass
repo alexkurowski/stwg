@@ -1,7 +1,46 @@
 @import '../vendor/normalize'
 
+@import 'landing'
 @import 'layout'
 @import 'header'
 @import 'footer'
-@import 'common'
-@import 'projects'
+@import 'sidebar'
+
+.container
+  width: 90%
+  margin: 0 auto
+  box-sizing: border-box
+
+  @media (min-width: 768px)
+    width: 80%
+
+[class^="column-"], [class*=" column-"]
+  padding: 0 1rem
+
+@media (min-width: 768px)
+  .row
+    white-space: nowrap
+
+  [class^="column-"], [class*=" column-"]
+    display: inline-block
+    box-sizing: border-box
+    vertical-align: top
+    white-space: normal
+
+  .column-small
+    width: 30%
+
+  .column-big
+    width: 70%
+
+.projects,
+.work,
+.tech
+  padding: 0
+  margin: 0
+  font-size: 18px
+  list-style: none
+
+.projects a
+  display: inline-block
+  padding: .15rem 0

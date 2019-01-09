@@ -1,0 +1,18 @@
+.container
+  .project.row
+    .column-small
+      span.heading Alex Kurowski
+      span< is a full-stack software engineer
+      p
+        a href='mailto:kurowski.dev@gmail.com'
+          == 'kurowski.dev<wbr>@gmail.com'
+
+      .sidebar
+        .sidebar__divider
+
+    .column-big
+      ul.projects
+        - Store['projects'].each do |project|
+          li
+            a href="/portfolio/#{ project['slug'] }" = project['short_title'] || project['title']
+            span = " – #{ project['excerpt'] }"

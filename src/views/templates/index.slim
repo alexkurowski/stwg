@@ -1,13 +1,5 @@
-.container
-  .project.row
-    .project__details.column-small
-      span.heading Alex Kurowski
-      span< is a full-stack software engineer
-      p == 'kurowski.dev<wbr>@gmail.com'
+.landing
+  img.landing__logo src=Assets.image('kuro.svg')
 
-    .project__info.column-big
-      ul.projects
-        - Store['projects'].each do |project|
-          li
-            a href="/prj/#{ project['slug'] }" = project['short_title'] || project['title']
-            span = " – #{ project['excerpt'] }"
+  .landing__links
+    a.landing__link href='/portfolio' Portfolio

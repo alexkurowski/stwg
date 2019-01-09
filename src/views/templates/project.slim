@@ -1,6 +1,6 @@
 .container
   .project.row
-    .project__details.column-small
+    .column-small
       span.heading = @project['title']
       span< = @project['description']
       - if @project['from'] && @project['from'] == @project['till']
@@ -10,7 +10,12 @@
       - elsif @project['from'] && !@project['till']
         p = "#{ @project['from'] } – Present"
 
-    .project__info.column-big
+      .sidebar
+        .sidebar__divider
+
+        a.sidebar__link href='/portfolio' Back
+
+    .column-big
       .heading Work done
       ul.work
         - @project['work'].each do |work|

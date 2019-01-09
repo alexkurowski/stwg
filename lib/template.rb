@@ -19,6 +19,8 @@ class Template
       end
     end
 
+    Slim.set_context self
+
     @content =
       @layout_template.render do
         @content_template.render self
