@@ -1,23 +1,8 @@
 doctype html
 html
   head
-    meta charset='utf-8'
-    meta http-equiv='X-UA-Compatible' content='IE=edge'
-    meta name='viewport' content='width=device-width, initial-scale=1.0'
+    == Slim.partial 'head'
     title Alex Kurowski – Portfolio
-
-    link rel="icon" href="/assets/favicon.ico"
-
-    link href='https://fonts.googleapis.com/css?family=Lato|Archivo' rel='stylesheet'
-    link href='/index.css' rel='stylesheet'
-    script src='/index.js' defer=true
-
-    script src='https://www.googletagmanager.com/gtag/js?id=UA-113325501-2' async=true
-    javascript:
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-113325501-2');
 
   body
     == Slim.partial 'header'
