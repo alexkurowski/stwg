@@ -13,6 +13,8 @@
       - if @project['screenshot']
         img.project__screenshot src=Assets.image("projects/#{ @project['screenshot'] }") data-lightbox=true
 
+      a.project__link href=@project['link']['href'] = @project['link']['text']
+
       .sidebar
         .sidebar__divider
         a.sidebar__link href='/portfolio' Back
