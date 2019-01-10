@@ -7,6 +7,8 @@ header.header
         .header__logo__line WSKI
 
     .right
+      a.header__link href="mailto:#{ Store['email'] }" title=Store['email']
+        img.header__link__image src=Assets.image('envelope.svg')
       a.header__link href=Store['github'] target='_blank' title='github'
         img.header__link__image src=Assets.image('github.svg')
       a.header__link href=Store['twitter'] target='_blank' title='twitter'

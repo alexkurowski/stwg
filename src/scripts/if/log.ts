@@ -9,11 +9,16 @@ export module Log {
     window.scrollTo(0, document.body.scrollHeight);
   }
 
-  export function add(text: string) {
+  export function add(text: string, immediate: boolean = false) {
     let paragraph = document.createElement('p');
-    paragraph.setAttribute('role', 'alert');
     element.appendChild(paragraph);
-    lineReveal(paragraph, text);
+
+    if (immediate) {
+      lineImmediateReveal(paragraph, text);
+    } else {
+      paragraph.setAttribute('role', 'alert');
+      lineReveal(paragraph, text);
+    }
   }
 
   function lineRevealSpeed(length: number): number {
@@ -25,6 +30,11 @@ export module Log {
       return 3;
     else
       return 1;
+  }
+
+  function lineImmediateReveal(paragraph: HTMLElement, text: string) {
+    paragraph.textContent = text;
+    scrollDown();
   }
 
   function lineReveal(paragraph: HTMLElement, text: string) {

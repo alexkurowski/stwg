@@ -1,18 +1,17 @@
 task default: ['compile']
 
+task c: :compile
 task :compile do
   ruby 'config.rb'
 end
 
-task c: :compile
-
+task s: :serve
 task :serve do
   print "Running at: http://localhost:3000\n"
   ruby '-run -e httpd dist -p 3000'
 end
 
-task s: :serve
-
+task d: :deploy
 task :deploy do
   `surge dist kurowski.surge.sh`
 end

@@ -17,19 +17,24 @@ projects:
     title: Skilsmässa Online
     short_title: Skilsmässa
     description: is a website for hiring a divorce lawyer in Sweden
-    excerpt: Divorce company in Sweden
+    excerpt: Lawyer company in Sweden
     from: Aug 2017
     till:
+    screenshot: skilsmassa.jpg
     work:
       - Full-stack development
       - Front-end performance improvements
+      - Backend upgrade, deployment, startup time and general performance optimizations
       - Work on back-end payment system
-      - Deployment, startup time and general performance optimizations
+      - Integrated A/B testing
     tech:
       - Ruby on Rails
       - JavaScript
       - Slim
       - Sass
+      - Bootstrap
+      - Klarna API
+      - Google Analytics API
     link:
       href: https://www.skilsmassaonline.se
       text: skilsmassaonline.se
@@ -40,14 +45,14 @@ projects:
     description: is a desktop application for creative writers
     excerpt: Writing application
     work:
-      - Full-stack development
-      - Node.js back-end business logic
+      - Complete development
       - Vue.js front-end
+      - Node.js back-end business logic
     tech:
       - ES6
-      - Vue.js
       - Node.js
       - Electron
+      - Vue.js
     link:
       href: https://github.com/alexkurowski/bookva-app
       text: source
@@ -78,6 +83,7 @@ projects:
     excerpt: Photo sharing platform
     from: Jan 2015
     till: Mar 2018
+    screenshot: yogile.jpg
     work:
       - Long-term full-stack development and support
       - Mobile application development with react-native
@@ -90,7 +96,7 @@ projects:
       - Redux
       - iOS
       - Android
-      - AWS
+      - AWS Storage
       - PureCSS
     link:
       href: https://yogile.com
@@ -103,6 +109,7 @@ projects:
     excerpt: Mentorship platform
     from: Jan 2015
     till: Feb 2016
+    screenshot: mentspot.jpg
     work:
       - Full-stack development and support
       - Development of WebRTC-based cross-browser voice communication and Websocket-based instant messaging functionality
@@ -122,6 +129,7 @@ projects:
     excerpt: A travel website
     from: Jul 2018
     till: Dec 2018
+    screenshot: beachcatcher.jpg
     work:
       - Full-stack development of client and admin sections
       - Development of a flexible back-end geo structure
@@ -162,6 +170,7 @@ projects:
     excerpt: Blogging and real estate platform
     from: Mar 2018
     till: Nov 2018
+    screenshot: luxuryaffairs.jpg
     work:
       - Front-end development
       - Open source contribution
@@ -173,19 +182,19 @@ projects:
       text: luxuryaffairs.co.uk
 
   -
-    title: Medium Editor
-    slug: medium-editor
-    description: is a WYSIWYG inline editor
-    excerpt: Plugin contributions
-    from: Apr 2018
-    till: Apr 2018
+    slug: heylink
+    title: Compriso
+    description: is a monetization platform built for online publishers
+    excerpt: Link manipulation script
+    from: Nov 2018
+    till: Dec 2018
     work:
-      - Fix a bug with unordered lists in Chrome
+      - Development of a JavaScript client library
     tech:
       - JavaScript
     link:
-      href: https://github.com/yabwe/medium-editor
-      text: github
+      href: https://heylink.com/
+      text: heylink.com
 
   -
     slug: doublemetrics
@@ -202,6 +211,21 @@ projects:
     link:
       href: http://doublemetrics.com
       text: doublemetrics.com
+
+  -
+    title: Medium Editor
+    slug: medium-editor
+    description: is a WYSIWYG inline editor
+    excerpt: Plugin contributions
+    from: Apr 2018
+    till: Apr 2018
+    work:
+      - Fix a bug with unordered lists in Chrome
+    tech:
+      - JavaScript
+    link:
+      href: https://github.com/yabwe/medium-editor
+      text: github
 
   -
     title: Viewpoint

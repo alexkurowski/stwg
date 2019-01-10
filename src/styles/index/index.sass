@@ -5,6 +5,7 @@
 @import 'header'
 @import 'footer'
 @import 'sidebar'
+@import 'lightbox'
 
 .container
   width: 90%
@@ -44,3 +45,13 @@
 .projects a
   display: inline-block
   padding: .15rem 0
+
+.project
+  &__screenshot
+    width: 100%
+    cursor: pointer
+    box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.8)
+    transition: box-shadow .3s
+
+    &:hover
+      box-shadow: 0 6px 6px -4px rgba(0, 0, 0, 0.8)

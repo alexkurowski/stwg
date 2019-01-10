@@ -4,8 +4,8 @@
       span.heading Alex Kurowski
       span< is a full-stack software engineer
       p
-        a href='mailto:kurowski.dev@gmail.com'
-          == 'kurowski.dev<wbr>@gmail.com'
+        a href="mailto:#{ Store['email'] }"
+          == Store['email'].gsub '@', '<wbr>@'
 
       .sidebar
         .sidebar__divider
