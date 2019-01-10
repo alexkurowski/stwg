@@ -19,6 +19,7 @@ end
 def assets
   `mkdir -p dist/assets`
   `cp -r assets/* dist/assets/`
+  `cp -r public/* dist/`
 end
 
 def route(r, opts)

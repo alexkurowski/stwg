@@ -12,6 +12,13 @@ html
     link href='/index.css' rel='stylesheet'
     script src='/index.js' defer=true
 
+    script src='https://www.googletagmanager.com/gtag/js?id=UA-113325501-2' async=true
+    javascript:
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-113325501-2');
+
   body
     == Slim.partial 'header'
 
