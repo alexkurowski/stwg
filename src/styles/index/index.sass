@@ -1,6 +1,5 @@
 @import '../vendor/normalize'
 
-@import 'landing'
 @import 'layout'
 @import 'header'
 @import 'footer'
@@ -70,3 +69,18 @@
   @media (min-width: 768px)
     .column-big
       margin-left: 2rem
+
+.work
+  li
+    position: relative
+
+  &__icon
+    position: absolute
+    width: 0.75em
+    height: 0.75em
+    top: 6px
+    opacity: .4
+
+  &__text
+    display: inline-block
+    padding-left: 1.5em

@@ -23,7 +23,9 @@
       .heading Work done
       ul.work
         - @project['work'].each do |work|
-          li = "- #{ work }"
+          li
+            img.work__icon src=Assets.image('check.svg')
+            span.work__text = work
 
       br
       .heading Tech used
