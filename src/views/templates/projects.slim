@@ -14,5 +14,5 @@
       ul.projects
         - Store['projects'].each do |project|
           li
-            a href="/portfolio/#{ project['slug'] }" = project['short_title'] || project['title']
-            span = " – #{ project['excerpt'] }"
+            a.projects__link href="/#{ project['slug'] }" = project['short_title'] || project['title']
+            span.projects__excerpt = " – #{ project['excerpt'] }"

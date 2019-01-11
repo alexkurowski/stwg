@@ -2,8 +2,12 @@ doctype html
 html
   head
     == Slim.partial 'head'
-    title K U R O
+    title Alex Kurowski – Portfolio
 
   body
-    main role="main"
+    == Slim.partial 'header'
+
+    main.portfolio role="main"
       == yield
+
+    == Slim.partial 'footer'

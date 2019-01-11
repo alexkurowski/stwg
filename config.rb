@@ -7,7 +7,6 @@ cleanup
 
 print "Converting styles...\n"
 style 'index/index.sass'
-style 'if/if.sass'
 
 
 print "Compile scripts...\n"
@@ -23,13 +22,9 @@ data 'data.yml'
 
 
 print "Writing templates...\n"
-route '/', template: 'index'
-route '/if', template: 'if', layout: 'if'
-
-route '/portfolio', template: 'projects', layout: 'portfolio'
+route '/', template: 'projects'
 Store['projects'].each do |project|
-  route "/portfolio/#{ project['slug'] }",
+  route "/#{ project['slug'] }",
     template: 'project',
-    layout: 'portfolio',
     locals: { project: project }
 end

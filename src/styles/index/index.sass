@@ -42,9 +42,13 @@
   font-size: 18px
   list-style: none
 
-.projects a
-  display: inline-block
-  padding: .15rem 0
+.projects
+  &__link
+    display: inline-block
+    padding: .15rem 0
+
+  &__excerpt
+    opacity: .8
 
 .project
   &__screenshot
@@ -59,3 +63,10 @@
   &__link
     display: block
     margin-top: 1rem
+
+  .heading
+    opacity: .75
+
+  @media (min-width: 768px)
+    .column-big
+      margin-left: 2rem

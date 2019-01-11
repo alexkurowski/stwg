@@ -17,7 +17,7 @@
 
       .sidebar
         .sidebar__divider
-        a.sidebar__link href='/portfolio' Back
+        a.sidebar__link href='/' Back
 
     .column-big
       .heading Work done
@@ -27,4 +27,4 @@
 
       br
       .heading Tech used
-      p = @project['tech'].join ', '
+      p.tech = @project['tech'].join ', '

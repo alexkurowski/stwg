@@ -6,11 +6,8 @@
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
-    "@types/node": "^10.12.18",
-    "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.5",
     "source-map-loader": "^0.2.4",
-    "typescript": "^3.2.2",
     "webpack": "^4.28.3",
     "webpack-cli": "^3.2.0"
   },

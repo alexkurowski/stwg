@@ -2,15 +2,14 @@ const path = require('path');
 
 module.exports = (env, options) => ({
   entry: {
-    index: './src/scripts/index.js',
-    if: './src/scripts/if/index.ts'
+    index: './src/scripts/index.js'
   },
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist')
   },
   resolve: {
-    extensions: [".js", ".ts"]
+    extensions: [".js"]
   },
   devtool: 'source-map',
   module: {
@@ -19,11 +18,6 @@ module.exports = (env, options) => ({
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
-      },
-      {
-        test: /\.ts$/,
-        exclude: /node_modules/,
-        loader: 'awesome-typescript-loader'
       },
       {
         enforce: "pre",
