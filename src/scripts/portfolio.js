@@ -1,4 +1,4 @@
-document.addEventListener('turbolinks:load', function () {
+window.addEventListener('load', function () {
   let lightbox;
 
   function createLightbox(original) {
