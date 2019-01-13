@@ -45,6 +45,7 @@ projects:
     slug: bookva
     description: is a desktop application for creative writers
     excerpt: Writing application
+    screenshot: bookva.png
     work:
       - Complete development
       - Vue.js front-end
@@ -55,8 +56,8 @@ projects:
       - Electron
       - Vue.js
     link:
-      href: https://github.com/alexkurowski/bookva-app
-      text: source
+      href: https://itunes.apple.com/us/app/bookva/id1397124353
+      text: App Store
 
   -
     slug: bluubeam
