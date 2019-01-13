@@ -39,10 +39,4 @@ window.addEventListener('load', function () {
       lightbox = createLightbox(event.target);
     }
   });
-
-
-  const projects = document.querySelectorAll('.projects > li');
-  projects.forEach(project => {
-    console.log(project);
-  });
 });
