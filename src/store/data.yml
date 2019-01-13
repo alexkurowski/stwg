@@ -1,5 +1,5 @@
 name: Alex Kurowski
-title: Full-Stack Software Engineer
+title: Full Stack Software Engineer
 email: kurowski.dev@gmail.com
 github: https://github.com/alexkurowski
 twitter: https://twitter.com/kurobotowski
@@ -18,11 +18,12 @@ projects:
     short_title: Skilsmässa
     description: is a website for hiring a divorce lawyer in Sweden
     excerpt: Lawyer company in Sweden
+    position: Full Stack Developer
     from: Aug 2017
     till:
     screenshot: skilsmassa.jpg
     work:
-      - Full-stack development
+      - Full stack development
       - Front-end performance improvements
       - Backend upgrade, deployment, startup time and general performance optimizations
       - Work on back-end payment system
@@ -45,6 +46,7 @@ projects:
     slug: bookva
     description: is a desktop application for creative writers
     excerpt: Writing application
+    position: Solo Developer
     screenshot: bookva.png
     work:
       - Complete development
@@ -60,34 +62,36 @@ projects:
       text: App Store
 
   -
-    slug: bluubeam
-    title: BluuBeam
-    description: is a platform for broadcasting rich messages directly to peoples phones
-    excerpt: Rich message broadcasting
-    from: Jun 2013
-    till: May 2017
+    slug: luxuryaffairs
+    title: Luxury Affairs
+    description: is a platform for luxury real estate sale/rent
+    excerpt: Blogging and real estate platform
+    position: Front-end Developer
+    from: Mar 2018
+    till: Nov 2018
+    screenshot: luxuryaffairs.jpg
     work:
-      - Full-stack development of user and admin dashboards
-      - API development for iBeacon webhooks
+      - Front-end development
+      - UI/UX improvements
+      - Open source contribution
     tech:
-      - Ruby on Rails
       - JavaScript
-      - jQuery
-      - Bootstrap
+      - PHP
     link:
-      href: https://bluubeam.com
-      text: bluubeam.com
+      href: https://luxuryaffairs.co.uk/en/
+      text: luxuryaffairs.co.uk
 
   -
     slug: yogile
     title: Yogile
     description: is an easy-to-use photo sharing platform
     excerpt: Photo sharing platform
+    position: Full Stack Developer
     from: Jan 2015
     till: Mar 2018
     screenshot: yogile.jpg
     work:
-      - Long-term full-stack development and support
+      - Long-term full stack development and support
       - Mobile application development with React Native
       - API development for mobile application
       - Agile principles in design and development of the project
@@ -112,11 +116,12 @@ projects:
     title: Mentspot
     description: is a social platform connecting mentors and mentees
     excerpt: Mentorship platform
+    position: Full Stack Developer
     from: Jan 2015
     till: Feb 2016
     screenshot: mentspot.jpg
     work:
-      - Full-stack development and support
+      - Full stack development and support
       - Development of WebRTC-based cross-browser voice communication and Websocket-based instant messaging functionality
       - Cross-browser video and voice chat
     tech:
@@ -133,11 +138,12 @@ projects:
     title: Beachcatcher
     description: is an informative beach-related travel website
     excerpt: A travel website
+    position: Full Stack Developer
     from: Jul 2018
     till: Dec 2018
     screenshot: beachcatcher.jpg
     work:
-      - Full-stack development of client and admin sections
+      - Full stack development of client and admin sections
       - Development of a flexible back-end geo structure
       - Geolocation-based photo search
     tech:
@@ -156,10 +162,12 @@ projects:
     title: Holaplaya
     description: is an informative beach-related travel website
     excerpt: Another travel website
+    position: Full Stack Developer
     from: Jul 2018
     till: Nov 2018
+    screenshot: holaplaya.jpg
     work:
-      - Full-stack development of client and admin sections
+      - Full stack development of client and admin sections
       - Development of a flexible back-end geo structure
       - Third-party website parsing
     tech:
@@ -172,29 +180,31 @@ projects:
       text: holaplaya.com
 
   -
-    slug: luxuryaffairs
-    title: Luxury Affairs
-    description: is a platform for luxury real estate sale/rent
-    excerpt: Blogging and real estate platform
-    from: Mar 2018
-    till: Nov 2018
-    screenshot: luxuryaffairs.jpg
+    slug: bluubeam
+    title: BluuBeam
+    description: is a platform for broadcasting rich messages directly to peoples phones
+    excerpt: Rich message broadcasting
+    position: Full Stack Developer
+    from: Jun 2013
+    till: May 2017
     work:
-      - Front-end development
-      - UI/UX improvements
-      - Open source contribution
+      - Full stack development of user and admin dashboards
+      - API development for iBeacon webhooks
     tech:
+      - Ruby on Rails
       - JavaScript
-      - PHP
+      - jQuery
+      - Bootstrap
     link:
-      href: https://luxuryaffairs.co.uk/en/
-      text: luxuryaffairs.co.uk
+      href: https://bluubeam.com
+      text: bluubeam.com
 
   -
     slug: heylink
     title: Compriso
     description: is a monetization platform built for online publishers
     excerpt: Link manipulation script
+    position: Solo Developer
     from: Nov 2018
     till: Dec 2018
     work:
@@ -210,6 +220,7 @@ projects:
     title: Doublemetrics
     description: is a user analytics library
     excerpt: Analytics library
+    position: Solo Developer
     from: Jan 2015
     till: Feb 2015
     work:
@@ -226,6 +237,7 @@ projects:
     slug: medium-editor
     description: is a WYSIWYG inline editor
     excerpt: Plugin contributions
+    position: Contributor
     from: Apr 2018
     till: Apr 2018
     work:
@@ -241,6 +253,7 @@ projects:
     slug: viewpoint
     description: is a client access library for Microsoft Exchange Web Services (EWS)
     excerpt: API contributions
+    position: Contributor
     from: Jun 2013
     till: Jun 2013
     work:
@@ -256,8 +269,9 @@ projects:
     slug: nabookov
     description: is a platform for serial writers
     excerpt: A platform for serial writers
+    position: Solo Developer
     work:
-      - Full-stack development
+      - Full stack development
       - Elixir back-end
       - Vue.js front-end
     tech:
@@ -273,6 +287,7 @@ projects:
     title: Swaps
     description: is a mobile puzzle game
     excerpt: A mobile puzzle game
+    position: Solo Developer
     work:
       - Game programming
       - Game design
@@ -289,6 +304,7 @@ projects:
     title: DGUP
     description: is a mini-tetris clone for mobile
     excerpt: A mini tetris mobile game
+    position: Solo Developer
     work:
       - Game programming
       - Game design

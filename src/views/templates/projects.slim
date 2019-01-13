@@ -2,7 +2,7 @@
   .project.row
     .column-small
       span.heading Alex Kurowski
-      span< is a full-stack software engineer
+      span< is a full stack software engineer
       p
         a href="mailto:#{ Store['email'] }"
           == Store['email'].gsub '@', '<wbr>@'
@@ -13,6 +13,18 @@
     .column-big
       ul.projects
         - Store['projects'].each do |project|
-          li
-            a.projects__link href="/#{ project['slug'] }" = project['short_title'] || project['title']
-            span.projects__excerpt = " – #{ project['excerpt'] }"
+          li.projects__project
+            a.projects__link href="/#{ project['slug'] }"
+              span.projects__link__short-title = project['short_title'] || project['title']
+              span.projects__link__excerpt = " – #{ project['excerpt'] }"
+
+              .info-window
+                span.heading = project['title']
+                span< = project['description']
+
+                - if project['screenshot']
+                  img.info-window__screenshot src=Assets.image("projects/#{ project['screenshot'] }")
+
+                .info-window__position
+                  img.info-window__position__icon src=Assets.image('user.svg')
+                  .info-window__position__text = project['position']
