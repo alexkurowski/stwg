@@ -78,7 +78,7 @@ projects:
       - JavaScript
       - PHP
     link:
-      href: https://luxuryaffairs.co.uk/en/
+      href: https://luxuryaffairs.co.uk/
       text: luxuryaffairs.co.uk
 
   -
@@ -204,7 +204,7 @@ projects:
     title: Compriso
     description: is a monetization platform built for online publishers
     excerpt: Link manipulation script
-    position: Solo Developer
+    position: Front-end Developer
     from: Nov 2018
     till: Dec 2018
     work:
@@ -220,7 +220,7 @@ projects:
     title: Doublemetrics
     description: is a user analytics library
     excerpt: Analytics library
-    position: Solo Developer
+    position: Front-end Developer
     from: Jan 2015
     till: Feb 2015
     work:
