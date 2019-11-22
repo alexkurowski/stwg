@@ -26,7 +26,7 @@ projects:
       - Full stack development
       - Front-end performance improvements
       - Backend upgrade, deployment, startup time and general performance optimizations
-      - Work on back-end payment system
+      - Work on back-end Klarna payment system integration
       - Integrated A/B testing
       - UI/UX work on a complex multistep form
     tech:
@@ -46,7 +46,7 @@ projects:
     title: Hidden
     short_title: Hidden
     description: is a mobile application guide to Norway's folk tales and local historic information
-    excerpt: Local story platform
+    excerpt: Local story platform in Norway
     position: Full Stack Developer
     from: Feb 2019
     till:
@@ -54,15 +54,45 @@ projects:
     work:
       - Full stack development
       - AWS deployment automation
+      - Mobile application development with React Native
       - Data scraping and seeding
     tech:
       - TypeScript
       - AWS Amplify
+      - React
+      - React Native
+      - iOS
+      - Android
       - Material UI
       - Google Maps API
     link:
       href: https://hidden.no
       text: hidden.no
+
+  -
+    slug: seobots
+    title: Seobots
+    short_title: Seobots
+    description: is a collection of SEO growth tools
+    excerpt: SEO growth tools
+    position: Full Stack Developer
+    from: Apr 2019
+    till:
+    screenshot: seobots.jpg
+    work:
+      - Full stack development
+      - Data scraping scripts
+      - Google Analytics API integration
+      - Instagram API integration
+      - Paddle payment system
+    tech:
+      - Ruby on Rails
+      - JavaScript
+      - Google Analytics API
+      - Instagram API
+    link:
+      href: https://seobots.io/
+      text: seobots.io
 
   -
     title: Bookva
@@ -118,7 +148,7 @@ projects:
       - Mobile application development with React Native
       - API development for mobile application
       - Agile principles in design and development of the project
-      - Migration of PayPal payment system to Stripe
+      - Migration from PayPal payment system to Stripe
     tech:
       - Ruby on Rails
       - JavaScript
