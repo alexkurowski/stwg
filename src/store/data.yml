@@ -42,6 +42,29 @@ projects:
       text: skilsmassaonline.se
 
   -
+    slug: hidden
+    title: Hidden
+    short_title: Hidden
+    description: is a mobile application guide to Norway's folk tales and local historic information
+    excerpt: Local story platform
+    position: Full Stack Developer
+    from: Feb 2019
+    till:
+    screenshot: hidden.jpg
+    work:
+      - Full stack development
+      - AWS deployment automation
+      - Data scraping and seeding
+    tech:
+      - TypeScript
+      - AWS Amplify
+      - Material UI
+      - Google Maps API
+    link:
+      href: https://hidden.no
+      text: hidden.no
+
+  -
     title: Bookva
     slug: bookva
     description: is a desktop application for creative writers

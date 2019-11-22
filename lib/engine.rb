@@ -6,7 +6,7 @@ def cleanup
 end
 
 def scripts
-  `webpack --mode development`
+  `npx webpack --mode development`
 end
 
 def style(src)
