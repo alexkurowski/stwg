@@ -66,7 +66,7 @@
     &:hover
       @media (min-width: 768px)
         .info-window
-          right: 0
+          transform: translateX(0)
           opacity: 1
 
 .project
@@ -93,7 +93,7 @@
 .info-window
   position: absolute
   top: 0
-  right: 2rem
+  right: 0
   max-width: 30vw
   padding: 1rem
   background: white
@@ -104,7 +104,8 @@
   z-index: 1
   box-sizing: border-box
   user-select: none
-  transition: right .2s, opacity .2s
+  transform: translateX(-32px)
+  transition: transform .2s, opacity .2s
 
   .heading
     opacity: 1
