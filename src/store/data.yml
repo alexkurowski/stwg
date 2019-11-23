@@ -85,6 +85,7 @@ projects:
       - Google Analytics API integration
       - Instagram API integration
       - Paddle payment system
+      - Chrome browser extension development
     tech:
       - Ruby on Rails
       - JavaScript
