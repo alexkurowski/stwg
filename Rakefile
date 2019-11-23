@@ -13,7 +13,6 @@ end
 
 task d: :distribute
 task :distribute do
-  sh 'rm -rf ../alexkurowski.github.io/'
-  sh 'mkdir ../alexkurowski.github.io/'
+  sh 'rm -rf ../alexkurowski.github.io/*'
   sh 'cp -r ./dist/* ../alexkurowski.github.io/'
 end
