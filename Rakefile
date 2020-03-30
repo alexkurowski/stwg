@@ -1,4 +1,4 @@
-task default: ['compile']
+task default: [:compile, :serve]
 
 task c: :compile
 task :compile do

@@ -13,6 +13,36 @@ tools:
 
 projects:
   -
+    slug: seobots
+    title: Seobots
+    short_title: Seobots
+    description: is a collection of SEO growth tools
+    excerpt: SEO growth tools
+    position: Full Stack Developer
+    from: Apr 2019
+    till:
+    screenshot: seobots.jpg
+    note:
+      - Extracted background workers into a stand-alone application deployed on a kubernetes cluster, automatically scaled based on the amount of work scheduled.
+      - Full website redesign
+    work:
+      - Full stack development
+      - Data scraping automation
+      - Google Analytics API integration
+      - Youtube API integration
+      - Instagram API integration
+      - Paddle payment system
+      - Chrome browser extension development
+    tech:
+      - Ruby on Rails
+      - JavaScript
+      - Kubernetes
+      - Various APIs
+    link:
+      href: https://seobots.io/
+      text: seobots.io
+
+  -
     slug: skilsmassaonline
     title: Skilsmässa Online
     short_title: Skilsmässa
@@ -51,6 +81,8 @@ projects:
     from: Feb 2019
     till:
     screenshot: hidden.jpg
+    note:
+      - Serverless deployment on AWS infrastructure with Amplify
     work:
       - Full stack development
       - AWS deployment automation
@@ -68,32 +100,6 @@ projects:
     link:
       href: https://hidden.no
       text: hidden.no
-
-  -
-    slug: seobots
-    title: Seobots
-    short_title: Seobots
-    description: is a collection of SEO growth tools
-    excerpt: SEO growth tools
-    position: Full Stack Developer
-    from: Apr 2019
-    till:
-    screenshot: seobots.jpg
-    work:
-      - Full stack development
-      - Data scraping scripts
-      - Google Analytics API integration
-      - Instagram API integration
-      - Paddle payment system
-      - Chrome browser extension development
-    tech:
-      - Ruby on Rails
-      - JavaScript
-      - Google Analytics API
-      - Instagram API
-    link:
-      href: https://seobots.io/
-      text: seobots.io
 
   -
     title: Bookva
