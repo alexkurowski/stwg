@@ -36,40 +36,12 @@ projects:
     tech:
       - Ruby on Rails
       - JavaScript
+      - Docker
       - Kubernetes
       - Various APIs
     link:
       href: https://seobots.io/
       text: seobots.io
-
-  -
-    slug: skilsmassaonline
-    title: Skilsmässa Online
-    short_title: Skilsmässa
-    description: is a website for hiring a divorce lawyer in Sweden
-    excerpt: Lawyer company in Sweden
-    position: Full Stack Developer
-    from: Aug 2017
-    till:
-    screenshot: skilsmassa.jpg
-    work:
-      - Full stack development
-      - Front-end performance improvements
-      - Backend upgrade, deployment, startup time and general performance optimizations
-      - Work on back-end Klarna payment system integration
-      - Integrated A/B testing
-      - UI/UX work on a complex multistep form
-    tech:
-      - Ruby on Rails
-      - JavaScript
-      - Slim
-      - Sass
-      - Bootstrap
-      - Klarna API
-      - Google Analytics API
-    link:
-      href: https://www.skilsmassaonline.se
-      text: skilsmassaonline.se
 
   -
     slug: hidden
@@ -100,6 +72,35 @@ projects:
     link:
       href: https://hidden.no
       text: hidden.no
+
+  -
+    slug: skilsmassaonline
+    title: Skilsmässa Online
+    short_title: Skilsmässa
+    description: is a website for hiring a divorce lawyer in Sweden
+    excerpt: Lawyer company in Sweden
+    position: Full Stack Developer
+    from: Aug 2017
+    till:
+    screenshot: skilsmassa.jpg
+    work:
+      - Full stack development
+      - Front-end performance improvements
+      - Backend upgrade, deployment, startup time and general performance optimizations
+      - Work on back-end Klarna payment system integration
+      - Integrated A/B testing
+      - UI/UX work on a complex multistep form
+    tech:
+      - Ruby on Rails
+      - JavaScript
+      - Slim
+      - Sass
+      - Bootstrap
+      - Klarna API
+      - Google Analytics API
+    link:
+      href: https://www.skilsmassaonline.se
+      text: skilsmassaonline.se
 
   -
     title: Bookva
